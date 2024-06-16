@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+
+    <style>
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <img src="images/cat-480.jpg"
+         alt="A blue eyed cat"
+         width="480" height="320">
+
+<!--srcset with display density descriptors-->
+         <img src="images/cat-480.jpg"
+              alt="A blue eyed cat"
+              width="480" height="320"
+              srcset="
+                 image/cat-480.jpg 480w,
+                 images/cat-960.jpg 960w
+                 images/cat-1440.jpg 1440w,
+                 images/cat-1920.jpg 1920w"
+              sizes="(max-width: 480px) 240px,
+                     (max-width: 960px) 480px,
+                     1440px"
+                 >
+
+
+</body>
+</html>
