@@ -1,0 +1,32 @@
+html {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(102, 14, 14, 0.904);
+}
+
+a:hover {
+    color: brown;
+}
+
+table {
+    border: 2px solid rgba(102, 14, 14, 0.904);
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid rgba(160, 42, 42, 0.575);
+    text-align: center;
+    padding: 10px 10px;
+    letter-spacing: 0.5px;
+
+}
+
+th {
+    background-color: rgb(247, 225, 225);
+}
+
+caption {
+    padding: 10px;
+}
